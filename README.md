@@ -10,6 +10,13 @@
 
 All of the code files can be run directly in Google Colab.
 
+Changes in LSTM2：
+1. CuDNNLSTM instead of LSTM.
+2. Add the advanced activation layer LeakyReLU.
+3. Modified some coefficients, such as epochs.
+4. Set EarlyStopping as the callbacks is used to stop training early.
+
+
 ## reference:
 1. https://www.kaggle.com/muonneutrino/wikipedia-traffic-data-exploration
 2. https://www.kaggle.com/zoupet/predictive-analysis-with-different-approaches
